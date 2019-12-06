@@ -105,6 +105,7 @@ class AboutMeController {
     aboutme.delete();
     return response.json(aboutme);
   }
+
 }
 
 module.exports = AboutMeController;
